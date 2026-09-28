@@ -1,0 +1,33 @@
+/* Header */
+#header {
+    text-align: center;
+}
+
+/* Main Heading */
+h1 {
+    color: red;
+    font-family: Georgia;
+    font-size: 32px;
+}
+
+/* Menu */
+.menu {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Content */
+#content {
+    text-align: center;
+}
+
+/* Sub Heading */
+h2 {
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+/* Paragraph */
+p {
+    font-size: 16px;
+}
