@@ -1,33 +1,55 @@
-/* Header */
+* {
+    font-family: Arial;
+}
+
 #header {
     text-align: center;
 }
 
-/* Main Heading */
 h1 {
     color: red;
     font-family: Georgia;
     font-size: 32px;
 }
 
-/* Menu */
 .menu {
     font-size: 18px;
     text-align: center;
 }
 
-/* Content */
 #content {
     text-align: center;
 }
 
-/* Sub Heading */
 h2 {
     font-family: Georgia;
     font-weight: bold;
 }
 
-/* Paragraph */
 p {
+    font-size: 16px;
+}
+
+input[type="text"] {
+    font-size: 16px;
+}
+
+input[type="email"] {
+    font-size: 16px;
+}
+
+form input {
+    margin: 5px;
+}
+
+#content > h2 {
+    color: blue;
+}
+
+h1 + form {
+    text-align: center;
+}
+
+h1 ~ a {
     font-size: 16px;
 }
