@@ -2,32 +2,114 @@
     font-family: Arial;
 }
 
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("parking-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
 #header {
-    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100vh;
+    background-color: #17232b;
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: left;
 }
 
 h1 {
-    color: red;
-    font-family: Georgia;
+    color: white;
     font-size: 32px;
+    text-align: left;
+    margin-bottom: 60px;
 }
 
 .menu {
-    font-size: 18px;
-    text-align: center;
+    font-size: 24px;
+    text-align: left;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.menu a:hover {
+    background-color: #e5b54d;
+    color: #17232b;
 }
 
 #content {
+    margin-left: 260px;
+    padding-top: 70px;
     text-align: center;
 }
 
-h2 {
-    font-family: Georgia;
-    font-weight: bold;
+#content > h2 {
+    color: white;
+    font-size: 64px;
+    margin-bottom: 10px;
 }
 
-p {
-    font-size: 16px;
+#content > p {
+    color: white;
+    font-size: 20px;
+}
+
+#welcome {
+    background-color: white;
+    width: 500px;
+    padding: 40px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+#welcome h3 {
+    color: #17232b;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+#welcome p {
+    color: #17232b;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#welcome a {
+    display: block;
+    background-color: #17232b;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+#welcome a:hover {
+    background-color: #e5b54d;
+    color: #17232b;
+}
+
+body > a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+body > a:hover {
+    color: #e5b54d;
 }
 
 input[type="text"] {
@@ -42,14 +124,36 @@ form input {
     margin: 5px;
 }
 
-#content > h2 {
-    color: blue;
-}
-
 h1 + form {
     text-align: center;
 }
 
 h1 ~ a {
     font-size: 16px;
+}
+
+h2,
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+table {
+    color: white;
+}
+
+th,
+td {
+    color: white;
+}
+
+th {
+    color: #e5b54d;
 }
